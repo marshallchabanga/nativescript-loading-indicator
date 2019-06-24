@@ -85,7 +85,7 @@ export class LoadingIndicator {
         return true;
       }
     }));
-    android.support.v4.view.ViewCompat.setElevation(parentView, 9.0);
+    androidx.core.view.ViewCompat.setElevation(parentView, 9.0);
     const params = parentView.getLayoutParams() as android.widget.LinearLayout.LayoutParams;
     const parentViewParams = params ? params : new android.widget.LinearLayout.LayoutParams(
       android.view.ViewGroup.LayoutParams.WRAP_CONTENT,
